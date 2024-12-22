@@ -1,0 +1,17 @@
+1)
+cat /etc/passwd > myfile.txt
+
+2)
+mv myfile.txt cdac.txt
+
+3)
+mkdir dac4
+mv cdac.txt dac4/
+
+4)
+sudo useradd dac
+sudo useradd dac6
+
+5)
+sudo useradd dac5
+sudo usermod -aG dac6 dac5
